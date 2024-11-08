@@ -1,3 +1,41 @@
+:root {
+  .light {
+    --primary: #4A90E2; /* Màu xanh dương nhẹ nhàng */
+    --secondary: #50E3C2; /* Màu xanh ngọc nhạt */
+    --background: #F9F9F9; /* Nền sáng nhạt */
+    --text-color: #2C3E50; /* Màu chữ đậm nhưng không quá tối */
+    --border-color: #D1D5DB; /* Màu viền xám nhạt */
+    --border-hover: #A0AEC0;
+    --hover-bg: #E6F7FF; /* Màu nền khi hover xanh rất nhạt */
+    --link-color: #4A90E2; /* Màu link xanh dương */
+    --link-hover: #357ABD; /* Màu link khi hover xanh đậm */
+    --button-bg: #E8F0FE; /* Nền button xanh nhạt */
+    --button-hover: #CCE0FE; /* Nền button khi hover xanh nhẹ hơn */
+    --header-bg: #FFFFFF; /* Màu nền header trắng */
+    --footer-bg: #F0F4F8; /* Màu nền footer sáng nhẹ */
+    --input-bg: #FFFFFF; /* Nền input trắng */
+    --input-border: #CED4DA; /* Viền input xám nhạt */
+    --shadow-color: rgba(0, 0, 0, 0.05); /* Bóng nhẹ tạo cảm giác mềm mại */
+  }
 
-$backgroudColor: red;
-$textColer:green;
+
+  .dark {
+    --primary: #61dafb; /* Màu xanh cyan sáng */
+    --secondary: #9c88ff; /* Màu tím nhạt */
+    --background: #121212; /* Nền tối hoàn toàn */
+    --text-color: #E0E0E0; /* Màu chữ trắng nhạt */
+    --border-color: #333333; /* Viền xám đậm */
+    --border-hover: #555555;
+    --hover-bg: #333333; /* Màu nền khi hover xám đậm */
+    --link-color: #61dafb; /* Màu link xanh cyan */
+    --link-hover: #4bb3db; /* Màu link khi hover xanh đậm hơn */
+    --button-bg: #1f1f1f; /* Nền button xám đậm */
+    --button-hover: #333333; /* Nền button khi hover xám nhạt */
+    --header-bg: #1A1A1A; /* Màu nền header đen xám */
+    --footer-bg: #2A2A2A; /* Màu nền footer xám đậm */
+    --input-bg: #1F1F1F; /* Nền input xám đậm */
+    --input-border: #444444; /* Viền input xám đậm hơn */
+    --shadow-color: rgba(0, 0, 0, 0.6); /* Bóng đậm hơn, rõ nét hơn */
+  }
+
+}

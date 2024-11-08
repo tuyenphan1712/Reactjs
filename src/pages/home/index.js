@@ -1,9 +1,10 @@
-import {Layout} from "../layout";
 
 const HomePage = () => {
     return (
-        <div>There is hompage</div>
-    )
+        <div>
+            home page
+        </div>
+    );
 }
 
 export {HomePage};

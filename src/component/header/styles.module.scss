@@ -1,0 +1,33 @@
+.headerStyles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--header-bg);
+  border-bottom: 2px solid var(--border-color);
+
+  .navStyles {
+    display: flex;
+    gap: 15px;
+
+    .linkStyles {
+      text-decoration: none;
+      border: 1px var(--border-color) solid;
+      font-size: 16px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      color: var(--link-color);
+      background-color: var(--button-bg);
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: var(--button-hover);
+        color: var(--link-hover);
+        border-color: var(--border-hover);
+      }
+
+    }
+
+  }
+
+}
