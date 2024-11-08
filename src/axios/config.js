@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'http://localhost:8080/api/v2',
+    baseURL: 'https://buysourcecode-production.up.railway.app/api/v2',
     timeout: 5000,
 });
 
